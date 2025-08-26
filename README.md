@@ -1,10 +1,10 @@
 # DataPipeline
 
 
-##Data Pipeline with ETL & Visualization##
+# Data Pipeline with ETL & Visualization
 This project demonstrates a complete, yet simple, Extract, Transform, Load (ETL) pipeline. It processes raw weather data from a CSV file, cleans and transforms it, loads the clean data into an SQLite database, and then visualizes the results in an interactive web dashboard.
 
-Tech Stack:
+# Tech Stack:
 
 Python: The core language for the pipeline.
 
@@ -16,7 +16,7 @@ SQLite: A lightweight, file-based database perfect for demonstration.
 
 Plotly Dash: To build and serve the interactive web dashboard for visualization.
 
-Project Structure
+# Project Structure
 
 etl-data-pipeline/
 ├── etl_pipeline.py       # The main script for the ETL process
@@ -26,7 +26,7 @@ etl-data-pipeline/
 ├── requirements.txt
 └── README.md
 
-#How It Works#
+# How It Works
 
 Extract: The etl_pipeline.py script reads the raw data from weather_data.csv.
 
